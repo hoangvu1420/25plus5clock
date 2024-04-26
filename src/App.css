@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.clock {
+  max-width: 700px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.setters {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  justify-content: space-around;
+}
+
+button {
+  width: 50px; /* Set width */
+  height: 50px; /* Set height equal to width */
+  margin: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 50%; /* Make it round */
+  background-color: #b0115e;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 0 10px 0 #ffd2e8;
+}
+
+h4 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+span {
+  font-size: 24px;
+}
+
+.display {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#start_stop, #reset {
+  margin: 10px;
+}
